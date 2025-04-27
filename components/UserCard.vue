@@ -10,7 +10,7 @@
     <div class="text-right">
       <div class="font-medium">{{ name }}</div>
       <button
-        class="text-sm underline text-slate-500"
+        class="text-sm underline text-slate-500 cursor-pointer"
         @click="logout"
       >
         Log out
