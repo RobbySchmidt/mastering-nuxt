@@ -17,18 +17,18 @@
 </template>
 
 <script setup>
-defineProps({
-  modelValue: {
-    type: Boolean,
-    default: false,
-  },
-});
+  defineProps({
+    modelValue: {
+      type: Boolean,
+      default: false,
+    },
+  });
 
-defineEmits(['update:modelValue']);
-</script>
+  defineEmits(['update:modelValue']);
+  </script>
 
-<style scoped>
-::selection {
-  display: none;
-}
+  <style scoped>
+  ::selection {
+    display: none;
+  }
 </style>
